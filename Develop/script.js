@@ -21,15 +21,24 @@ function toggleIcon (node, isToggled) {
   } else {
     node.firstChild.innerHTML = "";
   }
-} 
-document.querySelector(".btn-option").addEventListener("click", function whatever(){
+}
+function toggleButton(node){
   isMinCharacters = !isMinCharacters
   toggleIcon (document.querySelector(".btn-option"), isMinCharacters)
-})
+} 
+var nodes = document.querySelectorAll(".btn-option")
+
+for (var i = 0; i < nodes.length; i++) {
+  toggleButton(nodes[i])
+}
 
 var isMinCharacters = false;
+var isMaxCharacters = false;
+var isLowercase = false;
+var isUppercase = false;
+var isNumerics = false;
+var isSpecial = false;
 
-/*random comment*/
 
 /*Logic 
 1. Create 6 prompts for password criteria 
