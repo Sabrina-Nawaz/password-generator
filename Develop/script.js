@@ -29,6 +29,8 @@ document.querySelector(".btn-option").addEventListener("click", function whateve
 
 var isMinCharacters = false;
 
+/*random comment*/
+
 /*Logic 
 1. Create 6 prompts for password criteria 
 2. Use .length and at => 8 characters, but <128 characters
