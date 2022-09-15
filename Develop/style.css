@@ -88,6 +88,17 @@ header {
   cursor: pointer;
 }
 
+.btn-option {
+  margin: 8px 8px 8px 10px;
+  padding: 7px 17px;
+  background-color: grey;
+  font-size: 20px;
+}
+
+.btn-option:hover {
+  background-color: rgb(157, 150, 150);
+}
+
 button[disabled] {
   cursor: default;
   background: #c0c7cf;
