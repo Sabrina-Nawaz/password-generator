@@ -14,7 +14,8 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 var options = ["Min 8 characters", "Max 128 characters", "Lowercase", "Uppercase", "Numerics", "Special characters"]
 
-function toggleIcon (node, isToggled) {
+/*To Validate the selection
+/*function toggleIcon (node, isToggled) {
   
   if (isToggled) {
     node.firstChild.innerHTML = "✅";
@@ -26,6 +27,8 @@ function toggleButton(node){
   isMinCharacters = !isMinCharacters
   toggleIcon (document.querySelector(".btn-option"), isMinCharacters)
 } 
+
+
 var nodes = document.querySelectorAll(".btn-option")
 
 for (var i = 0; i < nodes.length; i++) {
@@ -37,13 +40,19 @@ var isMaxCharacters = false;
 var isLowercase = false;
 var isUppercase = false;
 var isNumerics = false;
-var isSpecial = false;
+var isSpecial = false;*/
 
+/*Create character set 
+function characterSet() {
+  var validate = toggleIcon();
+  
+}
 
 /*Logic 
 1. Create 6 prompts for password criteria 
 2. Use .length and at => 8 characters, but <128 characters
 3. Will need to use a for loop 
+4. Create a function for Character Set
 3. Prompt for character types to include in password --> lowercase, uppercase, numeric, and special characters
 4. Input is validated and one type is selected 
 5. Use an alert prompt*/
