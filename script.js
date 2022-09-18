@@ -8,6 +8,7 @@ var lowerCaseArr = lowerCaseStr.split('');
 var upperCaseArr = upperCaseStr.split('');
 var numbersArr = numericsStr.split('');
 var specialsArr = specialStr.split('');
+var password
 
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
@@ -26,10 +27,17 @@ function generatePassword() {
   } 
   // WHEN asked for character types to include in the password
   // THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-  var lCase = prompt('Include lowercase letters');
-
-
+  var lCase = confirm('Do you want to include lowercase letters?');
+  var uCase = confirm('Do you want to include uppercase letters?');
+  var numbers = confirm('Do you want to include numbers?');
+  var specialChar = confirm('Do you want to include special characters?');
+  
   // 4. Input is validated and one type is selected 
+  if (lCase === false && uCase === false && numbers === false && specialChar === false) {
+    alert('At least one character type should be selected')
+    return null;
+  }
+  
   // 5. Will need to use a for loop 
   // 6. Create a function for Character Set
   // 7. Use an alert prompt
