@@ -37,7 +37,6 @@ function generatePassword(passChars, passLength) {
     return null;
   }
 
- 
 var password = "";
 /*  if (lCase === true) {
     password += lowerCaseStr
@@ -50,10 +49,10 @@ var password = "";
   } 
   return password;
 }*/
-var passChars = lowerCaseStr + upperCaseStr + numericsStr + specialStr;
-var passLength = 10;
-  //Randomize var password and create a for loop 
-for (var i = 0; i < passLength; i++) {
+var passChars = [lowerCaseStr, upperCaseStr, numericsStr, specialStr];
+//var passLength = 8;
+//Randomize var password and create a for loop 
+for (var i = 0; i < passChars.length; i++) {
     var randomNumber = Math.floor(Math.random() * passChars.length);
       password += passChars.substring(randomNumber, randomNumber +1)
       } return password
