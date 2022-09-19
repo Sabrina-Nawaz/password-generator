@@ -1,4 +1,4 @@
-# password-generator
+# Password Generator
 
 ## Description
 
@@ -6,31 +6,34 @@ Creating passwords online can seem like a headache, but for the protection of yo
 
 ## Usage
 
-When you click on the "Generate Password" button, you will be met with multiple prompts and confirmations for the criterias you select for your password. It will then generate a random password between 8 - 128 characters, depending on the length you have entered. 
+When you click on the "Generate Password" button, you will be met with multiple prompts and confirmations for the criterias you select for your password such as lowercase, uppercase, special and numerical characters. It will then generate a random password between 8 - 128 characters, depending on the length you have entered and criterias you have selected. 
 
-## Credits
+## Credit & Sources 
 
-Refactored by: Sabrina Nawaz - www.github.com/sabrina-nawaz
+JavaScript by: Sabrina Nawaz 
 
-W3 Schools: https://www.w3schools.com/html/html5_semantic_elements.asp
-
-MDN Web Docs:  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
-
-## License
-
-Found at the bottom of the website. 
-
+Alt-Codes: 
 https://www.alt-codes.net/check-mark-symbols.php
 
+MDN: 
 https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild
 
 https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+
+W3 Schools:
 https://www.w3schools.com/js/js_loop_for.asp
 
+https://www.w3schools.com/jsref/jsref_substring.as
+
+Java T Point: 
 https://www.javatpoint.com/javascript-prompt-dialog-box
 
-https://www.w3schools.com/jsref/jsref_substring.asp
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+## License
+
+University of Toronto developed majority of the application by providing the HTML, CSS as well as a portion of the JavaScript in which the rest of the script was worked on to complete. 
+
+
 
